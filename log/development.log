@@ -6405,3 +6405,79 @@ Served asset /application.js - 200 OK (7ms)
 
 Started GET "/assets/railsgirls.png" for 127.0.0.1 at 2013-07-11 19:02:56 -0400
 Served asset /railsgirls.png - 200 OK (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+
+
+Started GET "/attendees" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Processing by AttendeesController#index as HTML
+  [1m[36mAttendee Load (0.1ms)[0m  [1mSELECT "attendees".* FROM "attendees" [0m
+  Rendered /Users/kleach/.rvm/gems/ruby-1.9.3-p327/gems/gmaps4rails-1.5.6/app/views/gmaps4rails/_gmaps4rails.html.erb (1.9ms)
+  Rendered attendees/index.html.erb within layouts/application (121.7ms)
+Completed 200 OK in 328ms (Views: 243.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /jquery.js - 200 OK (20ms)
+
+
+Started GET "/assets/attendees.css?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /attendees.css - 200 OK (1ms)
+
+
+Started GET "/assets/gmaps4rails.css?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /gmaps4rails.css - 200 OK (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /comments.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/attendees.js?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /attendees.js - 200 OK (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /comments.js - 200 OK (1ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /gmaps4rails/gmaps4rails.base.js - 200 OK (2ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.bing.js?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /gmaps4rails/gmaps4rails.bing.js - 200 OK (1ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 200 OK (1ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.mapquest.js?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /gmaps4rails/gmaps4rails.mapquest.js - 200 OK (1ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.openlayers.js?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /gmaps4rails/gmaps4rails.openlayers.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /application.js - 200 OK (7ms)
+
+
+Started GET "/assets/railsgirls.png" for 127.0.0.1 at 2013-08-29 18:40:01 -0400
+Served asset /railsgirls.png - 200 OK (0ms)
